@@ -1,0 +1,6 @@
+{
+  "name": "Niaz Medical Store",
+  "description": "Online pharmacy and medical store serving 283 GB, Mandi Rurala Road, Pakistan with convenient medicine ordering and local home delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

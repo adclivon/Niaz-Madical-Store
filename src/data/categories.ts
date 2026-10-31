@@ -1,0 +1,68 @@
+import { Category } from '../types/pharmacy';
+
+export const STORE_CATEGORIES: Category[] = [
+  {
+    id: 'cat-rx',
+    name: 'Prescription Medicines',
+    slug: 'prescription-medicines',
+    description: 'Essential prescription medicines requiring verification by our qualified store personnel and a doctor prescription.',
+    isPrescriptionCategory: true,
+    itemCount: 24,
+  },
+  {
+    id: 'cat-otc',
+    name: 'Over-the-Counter Medicines',
+    slug: 'over-the-counter',
+    description: 'Common wellness treatments, pain relief, cough, cold, and digestive aids available for direct purchase.',
+    isPrescriptionCategory: false,
+    itemCount: 38,
+  },
+  {
+    id: 'cat-vitamins',
+    name: 'Vitamins & Supplements',
+    slug: 'vitamins-supplements',
+    description: 'Daily multivitamins, minerals, calcium supplements, and immune boosters from reputable healthcare manufacturers.',
+    isPrescriptionCategory: false,
+    itemCount: 19,
+  },
+  {
+    id: 'cat-personal',
+    name: 'Personal Care',
+    slug: 'personal-care',
+    description: 'Dermatological creams, oral care, antibacterial lotions, and personal hygiene products.',
+    isPrescriptionCategory: false,
+    itemCount: 16,
+  },
+  {
+    id: 'cat-baby',
+    name: 'Baby Care',
+    slug: 'baby-care',
+    description: 'Gentle baby sanitizers, rash ointments, feeding essentials, and delicate pediatric healthcare supplies.',
+    isPrescriptionCategory: false,
+    itemCount: 12,
+  },
+  {
+    id: 'cat-firstaid',
+    name: 'First Aid',
+    slug: 'first-aid',
+    description: 'Sterile bandages, antiseptic solutions, cotton gauze, burn dressings, and home emergency supplies.',
+    isPrescriptionCategory: false,
+    itemCount: 22,
+  },
+  {
+    id: 'cat-equipment',
+    name: 'Medical Equipment',
+    slug: 'medical-equipment',
+    description: 'Digital thermometers, blood pressure monitors, blood glucose meters, test strips, and pulse oximeters.',
+    isPrescriptionCategory: false,
+    itemCount: 15,
+  },
+  {
+    id: 'cat-essentials',
+    name: 'Healthcare Essentials',
+    slug: 'healthcare-essentials',
+    description: 'Surgical masks, examination gloves, sanitizing rubs, hot water bottles, and daily health accessories.',
+    isPrescriptionCategory: false,
+    itemCount: 18,
+  },
+];
